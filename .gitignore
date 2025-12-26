@@ -163,3 +163,4 @@ cython_debug/
 
 resources/data/
 catboost_info
+datasets/*
