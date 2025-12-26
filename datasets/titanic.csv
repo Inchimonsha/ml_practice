@@ -1,0 +1,11 @@
+PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Cabin,Embarked
+1,0,3,Braund,male,22,1,0,A/5 21171,7.25,NaN,S
+2,1,1,Cumings,female,28,1,0,PC 17599,71.2833,C85,C
+3,1,3,Heikkinen,female,26,0,0,STON/O2. 3101282,7.925,NaN,S
+4,1,1,Futrelle,female,35,1,0,113803,53.1,C123,S
+5,0,3,Allen,male,35,0,0,373450,8.05,NaN,S
+6,0,2,Montivila,male,27,0,0,211536,13,NaN,S
+7,1,1,Graham,female,19,0,0,112053,30,B42,S
+8,0,3,Johnston,female,NaN,1,2,W./C. 6607,23.45,NaN,S
+9,1,1,Behr,male,26,0,0,111369,30,C148,C
+10,0,3,Dooley,male,32,0,0,370376,7.75,NaN,Q

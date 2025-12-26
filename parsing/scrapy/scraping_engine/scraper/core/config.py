@@ -1,0 +1,21 @@
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+REDIS_HOST = os.getenv("REDIS_HOST", "redis")
+REDIS_PORT = int(os.getenv("REDIS_PORT", 6379))
+
+RABBITMQ_HOST = os.getenv("RABBITMQ_HOST")
+RABBITMQ_PORT = os.getenv("RABBITMQ_PORT")
+RABBITMQ_AMQP_PORT = os.getenv("RABBITMQ_AMQP_PORT")
+RABBITMQ_MANAGEMENT_PORT = os.getenv("RABBITMQ_MANAGEMENT_PORT")
+RABBITMQ_DEFAULT_USER = os.getenv("RABBITMQ_DEFAULT_USER")
+RABBITMQ_DEFAULT_PASS = os.getenv("RABBITMQ_DEFAULT_PASS")
+
+RABBITMQ_URL = (
+    f"amqp://{RABBITMQ_DEFAULT_USER}"
+    f":{RABBITMQ_DEFAULT_PASS}"
+    f"@{RABBITMQ_HOST}"
+    f":{RABBITMQ_AMQP_PORT}"
+)

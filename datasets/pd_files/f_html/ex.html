@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Данные о пользователях, покупках и товарах</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            margin: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Данные о пользователях, покупках и товарах</h1>
+
+<!-- Таблица с данными о пользователях -->
+<table>
+    <caption>Таблица пользователей</caption>
+    <tr>
+        <th>ID пользователя</th>
+        <th>Имя</th>
+        <th>Email</th>
+        <th>Страна</th>
+    </tr>
+    <!-- Данные о пользователях -->
+    <tr><td>1</td><td>Иван Иванов</td><td>ivan@example.com</td><td>Россия</td></tr>
+    <tr><td>2</td><td>Мария Сидорова</td><td>maria@example.com</td><td>США</td></tr>
+    <tr><td>3</td><td>Алексей Петров</td><td>alex@example.com</td><td>Германия</td></tr>
+    <tr><td>4</td><td>Екатерина Иванова</td><td>ekaterina@example.com</td><td>Франция</td></tr>
+    <tr><td>5</td><td>Дмитрий Смирнов</td><td>dmitriy@example.com</td><td>Италия</td></tr>
+    <tr><td>6</td><td>Анна Кузнецова</td><td>anna@example.com</td><td>Испания</td></tr>
+    <tr><td>7</td><td>Артем Морозов</td><td>artem@example.com</td><td>Великобритания</td></tr>
+    <tr><td>8</td><td>Татьяна Новикова</td><td>tatiana@example.com</td><td>Канада</td></tr>
+    <tr><td>9</td><td>Сергей Лебедев</td><td>sergey@example.com</td><td>Япония</td></tr>
+    <tr><td>10</td><td>Ольга Соколова</td><td>olga@example.com</td><td>Австралия</td></tr>
+</table>
+
+<!-- Таблица с данными о покупках -->
+<table>
+    <caption>Таблица покупок</caption>
+    <tr>
+        <th>ID покупки</th>
+        <th>ID пользователя</th>
+        <th>Дата</th>
+        <th>Сумма</th>
+    </tr>
+    <!-- Данные о покупках -->
+    <tr><td>101</td><td>1</td><td>2023-01-15</td><td>150.00</td></tr>
+    <tr><td>102</td><td>2</td><td>2023-02-01</td><td>200.50</td></tr>
+    <tr><td>103</td><td>3</td><td>2023-02-10</td><td>75.20</td></tr>
+    <tr><td>104</td><td>4</td><td>2023-03-05</td><td>120.00</td></tr>
+    <tr><td>105</td><td>5</td><td>2023-03-20</td><td>90.50</td></tr>
+    <tr><td>106</td><td>6</td><td>2023-04-02</td><td>300.00</td></tr>
+    <tr><td>107</td><td>7</td><td>2023-04-15</td><td>50.80</td></tr>
+    <tr><td>108</td><td>8</td><td>2023-05-01</td><td>180.30</td></tr>
+    <tr><td>109</td><td>9</td><td>2023-05-10</td><td>95.75</td></tr>
+    <tr><td>110</td><td>10</td><td>2023-06-01</td><td>250.00</td></tr>
+</table>
+
+<!-- Таблица с данными о товарах -->
+<table>
+    <caption>Таблица товаров</caption>
+    <tr>
+        <th>ID товара</th>
+        <th>Название</th>
+        <th>Цена</th>
+        <th>Описание</th>
+    </tr>
+    <!-- Данные о товарах -->
+    <tr><td>1001</td><td>Смартфон</td><td>500.00</td><td>Современный смартфон с высокими характеристиками.</td></tr>
+    <tr><td>1002</td><td>Ноутбук</td><td>1200.00</td><td>Легкий и мощный ноутбук для работы и развлечений.</td></tr>
+    <tr><td>1003</td><td>Телевизор</td><td>800.00</td><td>Широкоформатный телевизор с отличным качеством изображения.</td></tr>
+    <tr><td>1004</td><td>Кофемашина</td><td>300.00</td><td>Автоматическая кофемашина для приготовления вкусного кофе.</td></tr>
+    <tr><td>1005</td><td>Фитнес-браслет</td><td>50.00</td><td>Браслет для отслеживания физической активности.</td></tr>
+    <tr><td>1006</td><td>Камера</td><td>700.00</td><td>Зеркальная камера с высоким разрешением.</td></tr>
+    <tr><td>1007</td><td>Беспроводные наушники</td><td>100.00</td><td>Наушники с отличным звуком и длительным временем работы.</td></tr>
+    <tr><td>1008</td><td>Холодильник</td><td>900.00</td><td>Большой холодильник с системой управления температурой.</td></tr>
+    <tr><td>1009</td><td>Микроволновая печь</td><td>80.00</td><td>Компактная микроволновка для разогрева пищи.</td></tr>
+    <tr><td>1010</td><td>Электрический чайник</td><td>20.00</td><td>Чайник для кипячения воды с автоматическим отключением.</td></tr>
+</table>
+
+</body>
+</html>

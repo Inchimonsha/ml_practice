@@ -1,0 +1,53 @@
+redis[aioredis]
+redisvl
+
+msgpack
+
+clickhouse-driver
+
+psycopg2-binary
+asyncpg
+pgvector
+
+pika
+aio_pika
+
+requests
+beautifulsoup4
+selenium
+scrapy
+playwright
+scrapy-playwright
+
+numpy
+pandas
+scikit-learn
+scipy
+statsmodels
+
+num2words
+
+catboost
+xgboost
+lightgbm
+
+sentence-transformers
+
+loguru
+
+shap
+optuna
+psutil
+boto3
+
+pydantic
+# pydantic[email]
+pydantic-settings
+
+alembic
+sqlalchemy
+
+# umap
+# torch
+# annoy
+# nmslib

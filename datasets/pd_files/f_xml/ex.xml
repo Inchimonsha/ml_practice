@@ -1,0 +1,62 @@
+<users>
+    <user>
+        <id>1</id>
+        <name>Иван Иванов</name>
+        <email>ivan@example.com</email>
+        <country>Россия</country>
+    </user>
+    <user>
+        <id>2</id>
+        <name>Мария Сидорова</name>
+        <email>maria@example.com</email>
+        <country>США</country>
+    </user>
+    <user>
+        <id>3</id>
+        <name>Алексей Петров</name>
+        <email>alex@example.com</email>
+        <country>Германия</country>
+    </user>
+    <user>
+        <id>4</id>
+        <name>Екатерина Иванова</name>
+        <email>ekaterina@example.com</email>
+        <country>Франция</country>
+    </user>
+    <user>
+        <id>5</id>
+        <name>Дмитрий Смирнов</name>
+        <email>dmitriy@example.com</email>
+        <country>Италия</country>
+    </user>
+    <user>
+        <id>6</id>
+        <name>Анна Кузнецова</name>
+        <email>anna@example.com</email>
+        <country>Испания</country>
+    </user>
+    <user>
+        <id>7</id>
+        <name>Артем Морозов</name>
+        <email>artem@example.com</email>
+        <country>Великобритания</country>
+    </user>
+    <user>
+        <id>8</id>
+        <name>Татьяна Новикова</name>
+        <email>tatiana@example.com</email>
+        <country>Канада</country>
+    </user>
+    <user>
+        <id>9</id>
+        <name>Сергей Лебедев</name>
+        <email>sergey@example.com</email>
+        <country>Япония</country>
+    </user>
+    <user>
+        <id>10</id>
+        <name>Ольга Соколова</name>
+        <email>olga@example.com</email>
+        <country>Австралия</country>
+    </user>
+</users>

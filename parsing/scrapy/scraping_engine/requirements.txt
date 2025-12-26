@@ -1,0 +1,12 @@
+# parsing
+requests
+scrapy
+selenium
+
+# utils
+python-dotenv==1.1.1
+aio-pika==9.5.5
+loguru==0.7.3
+
+# database
+redis==6.2.0
